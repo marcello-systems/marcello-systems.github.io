@@ -1,3 +1,3 @@
 # Hello World
 
-Ready, set, GO! :)
+Ready, set, GO! :-)
