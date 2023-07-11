@@ -1,4 +1,4 @@
-FROM jekyll/jekyll:latest
+FROM jekyll/jekyll:4.2.2
 
 COPY Gemfile* ./
 

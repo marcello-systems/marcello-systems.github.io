@@ -1,0 +1,9 @@
+exclude:
+  - .idea/
+  - local_serve.sh
+  - Dockerfile
+  - README.md
+
+collections:
+  authors:
+    output: true

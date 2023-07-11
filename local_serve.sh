@@ -27,7 +27,8 @@ case $1 in
     docker run \
             --volume="$PWD:/srv/jekyll:Z" \
             -p 4000:4000 \
-            -it jekyll serve
+            -p 35729:35729 \
+            -it jekyll serve --livereload
     ;;
     'reset')
     rm -fR .jekyll-cache .sass-cache _site Gemfile.lock
